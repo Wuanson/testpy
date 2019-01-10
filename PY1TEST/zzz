@@ -1,0 +1,15 @@
+    reg = r'src="(.+?\.jpg)" pic_ext'
+    imgre = re.compile(reg)
+
+        for imgurl in imglist:
+        print(imgurl)
+        urllib.request.urlretrieve(imgurl,'%s.jpg' % x)
+        x+=1
+                urllib.request.urlretrieve(imgurl,'%s.jpg' % x )
+
+
+                    for line in raw_cookies.split(';'):
+        key,value = line.split("=", 1)
+        cookie[key] = value #一些格式化操作，用来装载cookies
+
+        bid=gIXPpT8tDQU; ll="118281"; _ga=GA1.2.1374627703.1506153310; _vwo_uuid_v2=EA885C0667503631E047DB0A0DA8D15B|33783f7e236553153ae4670d940aff16; ct=y; ps=y; ue="821453880@qq.com"; push_noty_num=0; push_doumail_num=0; __utma=30149280.1374627703.1506153310.1513250434.1513253229.19; __utmb=30149280.18.9.1513253803256; __utmc=30149280; __utmz=30149280.1513250434.18.16.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmv=30149280.5305; ap=1; as="https://www.douban.com/people/132204190/"
